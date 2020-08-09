@@ -7,7 +7,8 @@ from time import sleep
 
 
 
-#creates a variable for randomly selected recipe for entrees & salads
+#creates a variable for randomly selected recipe for entrees & salads.
+#recipe variables are nested dictionaries e.g., {ingredient: {'quantity': 2,'webpage': 'kingsooperwebpage'}
 salad_suggestion = salad_recipes[random.randint(0, len(salad_recipes) - 1)]
 entree_suggestion = entree_recipes[random.randint(0, len(entree_recipes) - 1)]
 
